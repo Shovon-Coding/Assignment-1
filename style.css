@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 100px;
+    align-content: center;
+}
+nav {
+    display: flex;
+    justify-content:space-around;  
+}
+nav button{
+    padding: 10px;
+    border-radius: 10px;
+}
+.hero {
+    height:652px ;
+    background-image: url(assets/Hero-bg.png);
+    align-content: center;
+}
+.hero_content {
+    height: 582px;
+    width:910px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero_content img {
+    height: 240px;
+    width: 240px;
+    margin: 26px 0px;
+}
+.hero_text {
+    margin: 26px auto;
+    color: rgb(13, 19, 33);
+    width: 800px;
+}
+.btn_contact {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+}
